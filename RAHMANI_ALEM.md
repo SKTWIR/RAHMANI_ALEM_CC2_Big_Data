@@ -2,7 +2,7 @@
 **Étudiants :** RAHMANI & ALEM
 
 ## Liens GitHub
-*Tous les fichiers de résultats massifs générés par nos jobs Hadoop sont disponibles publiquement sur notre dépôt GitHub :*
+*Tous les fichiers de résultats générés par nos jobs Hadoop ainsi que les scripts python utilisé sont disponibles publiquement sur notre dépôt GitHub :*
  **[lien direct vers le dossier GitHub ici](https://github.com/SKTWIR/RAHMANI_ALEM_CC2_Big_Data)**
 
 ---
