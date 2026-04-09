@@ -1,0 +1,26 @@
+[raj_ops@sandbox-hdp ~]$ hdfs fsck /user/raj_ops/examen/tags.csv -files -blocks
+Connecting to namenode via http://sandbox-hdp.hortonworks.com:50070/fsck?ugi=raj_ops&files=1&blocks=1&path=%2Fuser%2Fraj_ops%2Fexamen%2Ftags.csv
+FSCK started by raj_ops (auth:SIMPLE) from /172.18.0.2 for path /user/raj_ops/examen/tags.csv at Thu Apr 09 12:44:14 UTC 2026
+/user/raj_ops/examen/tags.csv 38810332 bytes, 1 block(s):  OK
+0. BP-243674277-172.17.0.2-1529333510191:blk_1073743168_2348 len=38810332 repl=1
+
+Status: HEALTHY
+ Total size:    38810332 B
+ Total dirs:    0
+ Total files:   1
+ Total symlinks:                0
+ Total blocks (validated):      1 (avg. block size 38810332 B)
+ Minimally replicated blocks:   1 (100.0 %)
+ Over-replicated blocks:        0 (0.0 %)
+ Under-replicated blocks:       0 (0.0 %)
+ Mis-replicated blocks:         0 (0.0 %)
+ Default replication factor:    1
+ Average block replication:     1.0
+ Corrupt blocks:                0
+ Missing replicas:              0 (0.0 %)
+ Number of data-nodes:          1
+ Number of racks:               1
+FSCK ended at Thu Apr 09 12:44:14 UTC 2026 in 15 milliseconds
+
+
+The filesystem under path '/user/raj_ops/examen/tags.csv' is HEALTHY
